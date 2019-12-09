@@ -1,0 +1,34 @@
+{
+	"name": "goto",
+	"version": "1.0.0",
+	"description": "A PWA to give me train and weather info for my commute",
+	"main": "src/index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "parcel src/index.html"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/AndrewStanton94/goto.git"
+	},
+	"author": "Andrew Stanton",
+	"license": "GPL-3.0-or-later",
+	"bugs": {
+		"url": "https://github.com/AndrewStanton94/goto/issues"
+	},
+	"homepage": "https://github.com/AndrewStanton94/goto#readme",
+	"dependencies": {
+		"bulma": "^0.8.0",
+		"vue": "^2.6.10",
+		"vue-hot-reload-api": "^2.3.4"
+	},
+	"devDependencies": {
+		"@vue/component-compiler-utils": "^3.1.0",
+		"eslint": "^6.7.2",
+		"eslint-plugin-vue": "^6.0.1",
+		"parcel-bundler": "^1.12.4",
+		"sass": "^1.23.7",
+		"typescript": "^3.7.3",
+		"vue-template-compiler": "^2.6.10"
+	}
+}
