@@ -1,6 +1,7 @@
 <template>
 	<main class="container">
 		<h1>Hello {{ bundler }}</h1>
+		<journey-input></journey-input>
 	</main>
 </template>
 
